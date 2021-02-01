@@ -1,0 +1,23 @@
+	
+				
+			
+			case 6 :
+			{
+				public List<Booking> viewAllBookingByDate(LocalDate bookingdate)
+				{
+					System.out.println("Enter your booking date");
+				    LocalDate date= sc.nextDate();
+				    
+					List<Booking> book= query.getResultList();
+					if(book==null)
+					{
+						System.out.println("Date not Found");
+					}
+					return book;
+					
+			}
+			
+	   }
+}
+			}
+			 
